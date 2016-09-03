@@ -37,5 +37,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="nr4-uw-WFL">
+            <objects>
+                <viewController id="tTh-2D-Hq7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cc7-Vp-kUQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="vWd-Yo-KZD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v6b-8Z-kA5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPX-SV-PDn">
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smiley face with sunglasses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggo-oc-0FR">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ggo-oc-0FR" firstAttribute="centerX" secondItem="v6b-8Z-kA5" secondAttribute="centerX" id="Lzz-xx-SPp"/>
+                            <constraint firstItem="ggo-oc-0FR" firstAttribute="top" secondItem="zPX-SV-PDn" secondAttribute="bottom" constant="50" id="ptD-3H-VHI"/>
+                            <constraint firstItem="zPX-SV-PDn" firstAttribute="centerX" secondItem="v6b-8Z-kA5" secondAttribute="centerX" id="tIZ-Pa-mwP"/>
+                            <constraint firstItem="zPX-SV-PDn" firstAttribute="top" secondItem="Cc7-Vp-kUQ" secondAttribute="bottom" constant="40" id="ugp-un-udj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eIe-ze-4q7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="109"/>
+        </scene>
     </scenes>
 </document>
