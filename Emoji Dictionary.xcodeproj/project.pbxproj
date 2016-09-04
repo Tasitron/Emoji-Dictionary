@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F13F9861D7B7844009458AA /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13F9851D7B7844009458AA /* DefinitionViewController.swift */; };
 		5FF5ADFD1D79F69C00342F6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5ADFC1D79F69C00342F6B /* AppDelegate.swift */; };
 		5FF5ADFF1D79F69C00342F6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5ADFE1D79F69C00342F6B /* ViewController.swift */; };
 		5FF5AE021D79F69C00342F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF5AE001D79F69C00342F6B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F13F9851D7B7844009458AA /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 		5FF5ADF91D79F69C00342F6B /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF5ADFC1D79F69C00342F6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FF5ADFE1D79F69C00342F6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				5FF5ADFC1D79F69C00342F6B /* AppDelegate.swift */,
 				5FF5ADFE1D79F69C00342F6B /* ViewController.swift */,
+				5F13F9851D7B7844009458AA /* DefinitionViewController.swift */,
 				5FF5AE001D79F69C00342F6B /* Main.storyboard */,
 				5FF5AE031D79F69C00342F6B /* Assets.xcassets */,
 				5FF5AE051D79F69C00342F6B /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FF5ADFF1D79F69C00342F6B /* ViewController.swift in Sources */,
+				5F13F9861D7B7844009458AA /* DefinitionViewController.swift in Sources */,
 				5FF5ADFD1D79F69C00342F6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				5FF5AE0D1D79F69C00342F6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

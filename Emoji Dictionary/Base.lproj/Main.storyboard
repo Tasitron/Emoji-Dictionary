@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="967.20000000000005" y="108.39580209895054"/>
         </scene>
-        <!--View Controller-->
+        <!--Definition View Controller-->
         <scene sceneID="nr4-uw-WFL">
             <objects>
-                <viewController id="tTh-2D-Hq7" sceneMemberID="viewController">
+                <viewController id="tTh-2D-Hq7" customClass="DefinitionViewController" customModule="Emoji_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Cc7-Vp-kUQ"/>
                         <viewControllerLayoutGuide type="bottom" id="vWd-Yo-KZD"/>
@@ -72,6 +72,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mTD-dW-LjF"/>
+                    <connections>
+                        <outlet property="definitionLabel" destination="ggo-oc-0FR" id="1Ku-QQ-T9g"/>
+                        <outlet property="emojiLabel" destination="zPX-SV-PDn" id="XGn-r5-eqv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eIe-ze-4q7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
