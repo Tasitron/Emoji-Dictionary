@@ -62,17 +62,33 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyh-h7-nne">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created at: 2010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvs-ND-N4I">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="lvs-ND-N4I" firstAttribute="top" secondItem="yyh-h7-nne" secondAttribute="bottom" constant="15" id="2Eq-Yx-sgA"/>
                             <constraint firstItem="ggo-oc-0FR" firstAttribute="centerX" secondItem="v6b-8Z-kA5" secondAttribute="centerX" id="Lzz-xx-SPp"/>
+                            <constraint firstItem="yyh-h7-nne" firstAttribute="top" secondItem="ggo-oc-0FR" secondAttribute="bottom" constant="15" id="ePO-HX-ssz"/>
+                            <constraint firstItem="yyh-h7-nne" firstAttribute="centerX" secondItem="v6b-8Z-kA5" secondAttribute="centerX" id="hG9-Hb-z6g"/>
                             <constraint firstItem="ggo-oc-0FR" firstAttribute="top" secondItem="zPX-SV-PDn" secondAttribute="bottom" constant="50" id="ptD-3H-VHI"/>
                             <constraint firstItem="zPX-SV-PDn" firstAttribute="centerX" secondItem="v6b-8Z-kA5" secondAttribute="centerX" id="tIZ-Pa-mwP"/>
                             <constraint firstItem="zPX-SV-PDn" firstAttribute="top" secondItem="Cc7-Vp-kUQ" secondAttribute="bottom" constant="40" id="ugp-un-udj"/>
+                            <constraint firstItem="lvs-ND-N4I" firstAttribute="centerX" secondItem="v6b-8Z-kA5" secondAttribute="centerX" id="zaJ-Ep-Vaz"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mTD-dW-LjF"/>
                     <connections>
+                        <outlet property="category" destination="yyh-h7-nne" id="EBn-Zd-BM6"/>
+                        <outlet property="createdAt" destination="lvs-ND-N4I" id="HNL-i7-Z2Z"/>
                         <outlet property="definitionLabel" destination="ggo-oc-0FR" id="1Ku-QQ-T9g"/>
                         <outlet property="emojiLabel" destination="zPX-SV-PDn" id="XGn-r5-eqv"/>
                     </connections>
